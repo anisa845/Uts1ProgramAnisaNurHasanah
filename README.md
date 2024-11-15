@@ -16,47 +16,6 @@ Perkenalkan nama saya Anisa Nur Hasanah, Mahasiswa Semester 1 Jurusan Teknik Inf
 </body>
 </html>
 
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hitung Luas Persegi Panjang</title>
-    <script>
-        function hitungLuasPersegiPanjang() {
-            const panjang = parseFloat(document.getElementById("panjang").value);
-            const lebar = parseFloat(document.getElementById("lebar").value);
-
-            // Validasi input
-            if (isNaN(panjang) || isNaN(lebar) || panjang <= 0 || lebar <= 0) {
-                document.getElementById("hasil").innerText = "Masukkan panjang dan lebar yang valid!";
-                return;
-            }
-
-            // Hitung luas
-            const luas = panjang * lebar;
-
-            // Tampilkan hasil
-            document.getElementById("hasil").innerText = `Luas Persegi Panjang: ${luas} satuan luas.`;
-        }
-    </script>
-</head>
-<body>
-    <h1>Hitung Luas Persegi Panjang</h1>
-    <p>Masukkan nilai panjang dan lebar persegi panjang:</p>
-    <label for="panjang">Panjang:</label>
-    <input type="number" id="panjang" placeholder="Masukkan panjang"><br><br>
-    <label for="lebar">Lebar:</label>
-    <input type="number" id="lebar" placeholder="Masukkan lebar"><br><br>
-    <button onclick="hitungLuasPersegiPanjang()">Hitung Luas</button>
-    <p id="hasil" style="font-weight: bold; color: green;"></p>
-</body>
-</html>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -93,6 +52,8 @@ Perkenalkan nama saya Anisa Nur Hasanah, Mahasiswa Semester 1 Jurusan Teknik Inf
     <p id="hasil" style="font-weight: bold; color: blue;"></p>
 </body>
 </html>
+
+
 
 
 
